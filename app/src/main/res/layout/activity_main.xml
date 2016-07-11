@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.tourolf.MainActivity">
+    android:background="#95a5a6"
+    tools:context="com.tourolf.MainActivity"
+    tools:showIn="@layout/content_main">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
