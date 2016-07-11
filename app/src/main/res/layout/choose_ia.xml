@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Splashscreen"
+    android:background="#95a5a6">
+
+    <!--  Password Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/view"
+        android:background="@color/abc_primary_text_disable_only_material_dark"></android.support.design.widget.TextInputLayout>
+
+    <TextView android:id="@+id/lbl_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17dip"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:text="Tourolf 2016" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/splash_img"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view" />
+
+    <TextView android:text="Choix de la couleur" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="30dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="1200dp"
+        android:layout_height="120dp"
+        android:background="#e74c3c"
+        android:id="@+id/frameLayout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:width="100dp"
+        android:height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:background="#e74c3c" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:width="100dp"
+        android:height="100dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/frameLayout"
+        android:layout_alignEnd="@+id/frameLayout"
+        android:background="#27ae60" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:width="100dp"
+        android:height="100dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="#2980b9"
+        android:text="BLEU" />
+
+    <TextView android:text="Choix de la couleur" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:textSize="30dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="L&apos;IA a choisi : Bleu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="30dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/textview"
+        android:layout_alignStart="@+id/textview"
+        android:layout_marginTop="65dp" />
+
+
+</RelativeLayout>
